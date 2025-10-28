@@ -1,0 +1,13 @@
+name: Work FLow Check
+
+on:
+  push:
+    branches: [main]
+
+jobs:
+  ali:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: checkigs
+        run: echo "Another Work FLow example because in first one we got error"
